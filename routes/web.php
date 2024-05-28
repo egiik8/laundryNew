@@ -36,11 +36,12 @@ Route::get('/contact', [contactController::class, 'index'])->name('contact.view'
 
 
 
-Route::get('/register', [adminController::class, 'showRegistrationForm'])->name('admin.registerForm');
-Route::post('/admin/register', [adminController::class, 'register'])->name('admin.register');
+// Route::get('/register', [adminController::class, 'showRegistrationForm'])->name('admin.registerForm');
+// Route::post('/admin/register', [adminController::class, 'register'])->name('admin.register');
 Route::get('/login', [adminController::class, 'showLoginForm'])->name('admin.loginForm');
 Route::post('/admin/login', [adminController::class, 'login'])->name('admin.login');
 Route::post('/logout', [adminController::class, 'logout'])->name('admin.logout');
+Route::get('/admin/create', [AdminController::class, 'createAdmin']);
 
 
 

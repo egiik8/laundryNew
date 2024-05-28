@@ -10,7 +10,8 @@
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
     <title>Alisha Laundry</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link href="{{asset('frontends/img/favicon.ico')}}" rel="icon">
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
@@ -23,7 +24,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/manifest.json">
+    <link rel="manifest" href="assets/favicon/manifest.json"> -->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -194,12 +195,12 @@
     });
 </script>
 
-<script>
-    var sessionTimeout = 20 * 60 * 1000; 
+<!-- <script>
+    var sessionTimeout = 30 * 60 * 1000; 
     var warningTimeout = sessionTimeout * 0.9; 
 
     var logoutTimer = setTimeout(function() {
-        window.location.href = '/login'; 
+        window.location.href = 'admin.loginForm'; 
     }, sessionTimeout);
 
     var warningTimer = setTimeout(function() {
@@ -213,10 +214,10 @@
         clearTimeout(warningTimer);
 
         warningTimer = setTimeout(function() {
-            alert("Your session will expire soon. Please click OK to stay logged in.");
+            alert("sesi anda kadaluarsa harap login kembali");
         }, warningTimeout);
     });
-</script>
+</script> -->
 
 
 

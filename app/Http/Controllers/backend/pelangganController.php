@@ -16,12 +16,12 @@ class pelangganController extends Controller
       {
           $lastPelanggan = Pelanggan::latest('kd_pelanggan')->first();
           if ($lastPelanggan) {
-              $lastNumber = (int) substr($lastPelanggan->kd_pelanggan, 4);
+              $lastNumber = (int) substr($lastPelanggan->kd_pelanggan, 5);
               $newNumber = $lastNumber + 1;
           } else {
               $newNumber = 1;
           }
-          $newKodePelanggan = 'KPP' . str_pad($newNumber, 4, '0001', STR_PAD_LEFT);
+          $newKodePelanggan = 'KPP' . str_pad($newNumber, 5, '00001', STR_PAD_LEFT);
           return view('admin.pelanggan.add', compact('newKodePelanggan'));
       }
       public function search(Request $request)
@@ -56,9 +56,9 @@ class pelangganController extends Controller
       if ($lastPelanggan) {
           $lastNumber = (int)substr($lastPelanggan->kd_pelanggan, 3);
           $newNumber = $lastNumber + 1;
-          $newKodePelanggan = 'KPP' . sprintf('%04d', $newNumber);
+          $newKodePelanggan = 'KPP' . sprintf('%05d', $newNumber);
       } else {
-    $newKodePelanggan = 'KPP0001';
+    $newKodePelanggan = 'KPP00001';
 }
   
       $pelanggan = new Pelanggan();

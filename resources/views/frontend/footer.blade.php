@@ -9,7 +9,7 @@
      
       <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
       <div class="social-links d-flex mt-4">
-      <a href="https://wa.me/+6282232340075" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+      <!-- <a href="" class="whatsapp"><i class="bi bi-whatsapp"></i></a> -->
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
@@ -21,7 +21,7 @@
         <li><a href="/">Home</a></li>
         <li><a href="{{route('semuaPaket.view')}}">Paket</a></li>
         <li><a href="{{route('contact.view')}}">Contact</a></li>
-        <li><a class="get-a-quote" href="https://wa.me/+6282232340075?text=Pesan Laundry">Pesan Laundry</a></li>
+        <!-- <li><a class="get-a-quote" href="https://wa.me/+6282232340075?text=Pesan Laundry">Pesan Laundry</a></li> -->
       </ul>
     </div>
 
@@ -37,11 +37,10 @@
     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
       <h4>Contact Us</h4>
       <p>
-        A108 Adam Street <br>
-        New York, NY 535022<br>
-        United States <br><br>
-        <strong>Phone:</strong> +1 5589 55488 55<br>
-        <strong>Email:</strong> info@example.com<br>
+        Depan Pasar Wit-witan <br>
+        Singojuruh <br><br>
+        <strong>Phone:</strong> +62 8223245463<br>
+        <strong>Email:</strong> alishalaundry@gmail.com<br>
       </p>
 
     </div>

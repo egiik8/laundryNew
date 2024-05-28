@@ -38,7 +38,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Depan Pasar Wit-witan Alasmalang,Singojuruh</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -46,7 +46,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>alishalaundry@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 

@@ -87,7 +87,7 @@
                                     @if ($data->biaya_delivery)
                                     <br>
                                     <span class="text-muted" style="font-size: 12px;">
-                                        Biaya Antar Rp.{{ $data->biaya_delivery }}
+                                        Biaya Antar Rp.{{ number_format($data->biaya_delivery, 2) }} 
                                     </span>
                                     @endif
                                     </td>

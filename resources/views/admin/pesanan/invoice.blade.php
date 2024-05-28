@@ -105,19 +105,19 @@
         <p>Alamat : {{ $pesanan->pelanggans->alamat }}</p>
         <p>Tanggal Pesan : {{ \Carbon\Carbon::createFromFormat('Y-m-d', $pesanan->tgl_pesan)->format('d F Y') }}</p>
         <p>Status Pembayaran : {{ $pesanan->status_pembayaran }}</p>
-        <p>Status Laundry : {{ $pesanan->status }}</p>
+        <!-- <p>Status Laundry : {{ $pesanan->status }}</p> -->
         <p>Tanggal Pembayaran : @if ($pesanan->tgl_pembayaran)
         {{ \Carbon\Carbon::createFromFormat('Y-m-d', $pesanan->tgl_pembayaran)->format('d F Y') }}
         @else
         <span style="color: red;">-</span>
         @endif
         </p>
-        <p>Tanggal Pengambilan : @if ($pesanan->tgl_pengambilan)
+        <!-- <p>Tanggal Pengambilan : @if ($pesanan->tgl_pengambilan)
         {{ \Carbon\Carbon::createFromFormat('Y-m-d', $pesanan->tgl_pengambilan)->format('d F Y') }}
         @else
         <span style="color: red;">-</span>
         @endif
-        </p>
+        </p> -->
         <p>Diantar :  @if ($pesanan->delivery)
                             Ya
                           @else

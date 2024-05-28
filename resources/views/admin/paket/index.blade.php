@@ -38,8 +38,7 @@
                           <td class="text-center" style="max-width:70px; "> {{$data->kd_paket}}</td>
                           <td class="text-center" style="max-width:70px; "> {{$data->nama_paket}}</td>
                           <td class="text-center" style="max-width:400px;"> {{$data->deskripsi}}</td>
-                          <td class="text-center" style="max-width:80px;"> Rp.{{ number_format($data->harga, 2) }} /Kg</td>
-                          
+                          <td class="text-center" style="max-width:80px;"> Rp.{{ number_format($data->harga, 2) }} /Kg</td>    
                           <td class="text-center" style="max-width:70px;">
                          <!-- <a href=""class="btn btn-success btn-sm"><i class="fa fa-eye fa-lg" style="color:white"></i></a> -->
                         <a href="{{ route('paket.edit', $data->id) }}"class="btn btn-warning btn-sm"><i class="fa fa-edit fa-lg" style="color:white"></i></a>
@@ -55,5 +54,5 @@
               </div>
             </div>
           </div>
-          
+</div>
 @endsection

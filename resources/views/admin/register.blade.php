@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="{{asset('assets/vendors/simplebar/css/simplebar.css') }}">
+<link href="{{asset('frontends/img/favicon.ico')}}" rel="icon">
     <link rel="stylesheet" href="{{asset('assets/css/vendors/simplebar.css')}}">
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/examples.css')}}" rel="stylesheet">
